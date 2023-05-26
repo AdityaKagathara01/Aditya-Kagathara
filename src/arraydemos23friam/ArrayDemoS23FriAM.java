@@ -6,6 +6,27 @@ import java.util.Scanner;
 
 
 public class ArrayDemoS23FriAM {
+    //helloo
+    private String string;
+
+    /**
+     * Get the value of string
+     *
+     * @return the value of string
+     */
+    public String getString() {
+        return string;
+    }
+
+    /**
+     * Set the value of string
+     *
+     * @param string new value of string
+     */
+    public void setString(String string) {
+        this.string = string;
+    }
+
 
     public static void main(String[] args) {
        System.out.println("Enter a word");
@@ -13,6 +34,7 @@ public class ArrayDemoS23FriAM {
        String myWord = input.nextLine();
        
        char[] myLetters =new char[myWord.length()];
+       //helloooooo
        
        for(int i = 0;i<myLetters.length;i++){
            myLetters[i] = myWord.charAt(i);
